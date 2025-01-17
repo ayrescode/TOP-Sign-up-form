@@ -12,7 +12,7 @@
   background: url(./img/background.jpg) center center / auto 100vh;
   background-size: cover;
   width: 40vw;
-  height: 100vh;
+  height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@
 
 .right-side {
   width: 60vw;
-  background-color: cadetblue;
+  background-color: #f9fafb;
 }
 .right-side > div > h1 {
   padding: 20px;
@@ -66,4 +66,35 @@ input {
 }
 form > h2 {
   margin-bottom: 20px;
+}
+
+label {
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+button {
+  padding: 10px 50px;
+  margin-top: 30px;
+  margin-left: 50px;
+  border-radius: 5px;
+  font-family: 'open sans';
+  background-color: #596d48;
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+p {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: 'open sans';
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: 800;
 }
